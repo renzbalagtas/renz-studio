@@ -1,7 +1,6 @@
 body {
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+.heater {
+    display: flex;
+    justify-content: center;
 }
