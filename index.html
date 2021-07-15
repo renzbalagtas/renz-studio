@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="random_yt.js"></script>
     <div id="header" class="header">
    <img src="https://raw.githubusercontent.com/renzbalagtas/renzbalagtas.github.io/gh-pages/github_gifs/paint_bucket.gif"/>
     <h1> Welcome </h1>
@@ -11,26 +12,6 @@
 </head>
 <body>
     <h3><button onClick="window.location.reload();">Next</button><h3>
-    <script>
-        var videos = ["https://www.youtube.com/embed/IWYImJiFHd4", "https://www.youtube.com/embed/ReBzqzztRNQ?start=44",
-                      "https://www.youtube.com/embed/am6ngIjzeao", "https://www.youtube.com/embed/09Jnd2VzN5c?start=58",
-                     "https://www.youtube.com/embed/64LlQau30tI", "https://www.youtube.com/embed/agzL-VwSJac",
-                      "https://www.youtube.com/embed/T-eVg4dZErI", "https://www.youtube.com/embed/dysOLygI8ZE",
-                      "https://www.youtube.com/embed/W55x5OmNDU4?start=98", "https://www.youtube.com/embed/68eue5cpbsE",
-                      "https://www.youtube.com/embed/NKoJDyKo1QQ", "https://www.youtube.com/embed/qfRlmwjD2Fs",
-                      "https://www.youtube.com/embed/BZGY81KJJPU?start=98",
-                     ];
-        window.onload = function () {
-            var playerDiv = document.getElementById("random_player");
-            var player = document.createElement("IFRAME");
-            var randomVideoUrl = videos[Math.floor(Math.random() * videos.length)];
-            player.setAttribute('width', '100%');
-            player.setAttribute('height', '640');
-            player.setAttribute('src', randomVideoUrl);
-
-            playerDiv.appendChild(player);
-        };
-    </script>
     <div id="random_player"/>
 </body>
 </html>
