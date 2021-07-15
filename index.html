@@ -24,7 +24,7 @@
             var player = document.createElement("IFRAME");
             var randomVideoUrl = videos[Math.floor(Math.random() * videos.length)];
             player.setAttribute('width', '100%');
-            player.setAttribute('height', '640');
+            player.setAttribute('min-height', '100%');
             player.setAttribute('src', randomVideoUrl);
 
             playerDiv.appendChild(player);
