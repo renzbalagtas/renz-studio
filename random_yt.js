@@ -11,7 +11,7 @@ window.onload = function () {
     const player = document.createElement("IFRAME");
     const randomVideoUrl = videos[Math.floor(Math.random() * videos.length)];
     player.setAttribute('width', '90%');
-    player.setAttribute('height', '640');
+    player.setAttribute('height', '420');
     player.setAttribute('src', randomVideoUrl);
 
     playerDiv.appendChild(player);
