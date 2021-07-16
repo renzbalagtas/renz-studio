@@ -6,7 +6,7 @@ const videos = ["https://www.youtube.com/embed/IWYImJiFHd4", "https://www.youtub
             "https://www.youtube.com/embed/NKoJDyKo1QQ", "https://www.youtube.com/embed/qfRlmwjD2Fs",
             "https://www.youtube.com/embed/BZGY81KJJPU?start=8", "https://www.youtube.com/embed/TB54dZkzZOY",
             "https://www.youtube.com/embed/9gF2UySGZAU", "https://www.youtube.com/embed/kW6z5TyU8QA",
-            "https://www.youtube.com/embed/f2jqzVurDuY"];
+            "https://www.youtube.com/embed/f2jqzVurDuY", "https://www.youtube.com/embed/XSHf4sivlWA"];
 
             window.onload = function () {
                 const playerIframe = document.getElementById("player");
