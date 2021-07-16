@@ -6,13 +6,9 @@ const videos = ["https://www.youtube.com/embed/IWYImJiFHd4", "https://www.youtub
             "https://www.youtube.com/embed/NKoJDyKo1QQ", "https://www.youtube.com/embed/qfRlmwjD2Fs",
             "https://www.youtube.com/embed/BZGY81KJJPU?start=98", "https://www.youtube.com/embed/TB54dZkzZOY"];
 
-window.onload = function () {
-    const playerDiv = document.getElementById("random_player");
-    const player = document.createElement("IFRAME");
-    const randomVideoUrl = videos[Math.floor(Math.random() * videos.length)];
-    player.setAttribute('width', '90%');
-    player.setAttribute('height', '420');
-    player.setAttribute('src', randomVideoUrl);
-
-    playerDiv.appendChild(player);
-        };
+            window.onload = function () {
+                const playerIframe = document.getElementById("player");
+                const randomVideoUrl = videos[Math.floor(Math.random() * videos.length)];
+                playerIframe.setAttribute('src', randomVideoUrl);
+                    };
+             
