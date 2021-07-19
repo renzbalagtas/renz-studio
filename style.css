@@ -7,7 +7,7 @@ header > img {
 }
 
 #email_line {
-    position: relative;
+    display: flex;;
     bottom: 0;
     align-self: left;
     margin-left: 10px;
@@ -57,3 +57,32 @@ BACKGROUND
     margin-left: 10px;
     width: 100%;
 }
+
+.paint_roller {
+    display:flex;
+    margin: 50px auto;
+    position: relative;
+}
+
+#roller {
+    animation-name: rollin_paint;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+@keyframes rollin_paint {
+
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 400px;
+    }
+
+    100% {
+        left: -400px;
+    }
+
+}
+
+
