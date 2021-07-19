@@ -59,8 +59,7 @@ BACKGROUND
 }
 
 .paint_roller {
-    display:flex;
-    margin: 50px auto;
+    
     position: relative;
 }
 
