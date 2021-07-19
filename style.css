@@ -75,11 +75,11 @@ BACKGROUND
     }
 
     50% {
-        left: 400px;
+        left: 100%;
     }
 
     100% {
-        left: -400px;
+        left: 0px;
     }
 
 }
