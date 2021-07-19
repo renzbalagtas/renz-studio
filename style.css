@@ -59,7 +59,6 @@ BACKGROUND
 }
 
 .paint_roller {
-    
     position: relative;
 }
 
@@ -71,7 +70,7 @@ BACKGROUND
 @keyframes rollin_paint {
 
     0% {
-        left: 0px;
+        left: 0%;
     }
 
     50% {
@@ -79,7 +78,7 @@ BACKGROUND
     }
 
     100% {
-        left: 0px;
+        left: 0%;
     }
 
 }
