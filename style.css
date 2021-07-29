@@ -1,6 +1,7 @@
 header {
     display: flex;
     margin-bottom: 55px;
+    z-index: 10;
 }
 header > img {
     align-self: center;
@@ -60,6 +61,7 @@ BACKGROUND
 
 .paint_roller {
     position: relative;
+    display: flex;
 }
 
 #roller {
@@ -82,5 +84,7 @@ BACKGROUND
     }
 
 }
+
+
 
 

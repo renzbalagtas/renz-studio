@@ -8,7 +8,7 @@ const videos = ["https://www.youtube.com/embed/IWYImJiFHd4", "https://www.youtub
             "https://www.youtube.com/embed/9gF2UySGZAU", "https://www.youtube.com/embed/kW6z5TyU8QA",
             "https://www.youtube.com/embed/f2jqzVurDuY", "https://www.youtube.com/embed/XSHf4sivlWA",
             "https://www.youtube.com/embed/GB6BERGTTsA", "https://www.youtube.com/embed/wTndtUTFqb8",
-            "https://www.youtube.com/embed/ODejBuFlY20"];
+            "https://www.youtube.com/embed/ODejBuFlY20", "https://youtu.be/e_PMcFjE9as"];
 
             window.onload = function () {
                 const playerIframe = document.getElementById("player");
